@@ -1,0 +1,11 @@
+
+&sensor_i2c {
+    status = "ok";
+    qcom,clk-freq-out = <100000>;
+
+    sense@64 {
+        compatible = "sensor";
+        reg = <0x64>;
+    };
+}
+
